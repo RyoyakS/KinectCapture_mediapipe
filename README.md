@@ -6,9 +6,9 @@ conda env create -f mediapipe10.yaml
 conda create --name mediapipe10 python=3.10
 conda activate mediapipe10
 
-## Installation (安裝)
+## Installation 
 pip install -r requirements.txt
-
-# Install PyTorch and supporting libraries (安裝pytorch)
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+
+
 
